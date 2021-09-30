@@ -28,7 +28,7 @@ def modify_lightness(img,lightness=0,saturation=0):
 
 if __name__ == '__main__':
     
-    img = cv2.imread(input('iamge path :'))
+    img = cv2.imread('drum_fan.jpg')
     if img is None:
         sys.exit('No image!')
     lightness = float(input('lightness factor ='))

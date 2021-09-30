@@ -35,7 +35,7 @@ def modify_intensity(img):
     show_img('decrease',decrease_img)
     
 if __name__ == '__main__':
-    img = cv2.imread('CV_1/hunter.jpg')
+    img = cv2.imread('drum_fan.jpg')
     modify_intensity(img)
     cv2.waitKey(0)
     cv2.destroyAllWindows()

@@ -55,7 +55,7 @@ def modify_temperature(img,mode='default',degree=0):
     return de_img
 
 if __name__ == '__main__' :
-    img = cv2.imread(input('image path:'))
+    img = cv2.imread('drum_fan.jpg')
     mode = input('mode:')
     degree = int(input('degree:'))
     style_img = modify_temperature(img,mode,degree)
